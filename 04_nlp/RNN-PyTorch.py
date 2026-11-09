@@ -80,7 +80,7 @@ class RNNTextClassifier(nn.Module):
         # x: [batch_size, seq_len]
         x = self.embedding(x)  # shape: [batch_size, seq_len, embed_dim]
         # Initialize hidden state on the same device as x
-        h0 = torch.zeros(self.rnn.num_layers, x.size(0), self.rnn.hidden_size).to(device)
+        h0 = torch.zeros(self.rnn.num_layers, x.size(0), self.rnn.hidden_size).to(x.device)
         out, _ = self.rnn(x, h0)  # out: [batch_size, seq_len, hidden_size]
         # Use the output from the last time step
         out = out[:, -1, :]
