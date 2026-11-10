@@ -1,6 +1,6 @@
 # Hands-OnDL
 
-Hands-on PyTorch — structured for learning from scratch.
+Hands-on deep learning with PyTorch — structured for learning from scratch.
 
 ## Structure
 
@@ -14,21 +14,25 @@ Hands-on PyTorch — structured for learning from scratch.
   PyTorch_Regression_California_Housing.ipynb   — tabular regression, MSE loss
   IMDB-TFIDF-FNN-PyTorch.py                     — sentiment classification, TF-IDF + FNN
 
-03_training_loop/                  — (coming: manual loop, loss/optimizer comparison)
+03_training_loop/
+  01_manual_training_loop.ipynb    — 5-step loop, train/eval modes, checkpointing
+  02_losses_and_optimizers.ipynb   — MSE/BCE/CE, SGD/Adam/AdamW, LR schedulers
+
+── Specializations ──────────────────────────────────────
 
 04_nlp/
   RNN-PyTorch.py                   — RNN text classifier on 20 Newsgroups
 
-05_llm_apis/
-  chatbot_qa_prompt.md             — prompt template for chatbot QA evaluation
+05_cv/
+  01_cnn_mnist.ipynb               — Conv2d, MaxPool2d, MNIST digit classification
 ```
 
 ## Prerequisites
 
 ```
-pip install torch scikit-learn pandas kagglehub
+pip install torch torchvision scikit-learn pandas kagglehub matplotlib
 ```
 
 ## Recommended order
 
-`01_basics` → `02_neural_networks` → `03_training_loop` → `04_nlp` → `05_llm_apis`
+`01_basics` → `02_neural_networks` → `03_training_loop` → then pick a specialization: `04_nlp` or `05_cv`
