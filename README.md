@@ -23,7 +23,7 @@ Hands-on deep learning with PyTorch — structured for learning from scratch.
 ── Specializations ──────────────────────────────────────
 
 04_nlp/
-  RNN-PyTorch.py                   — RNN text classifier on 20 Newsgroups
+  01_rnn_text_classification.ipynb — RNN text classifier on 20 Newsgroups
   02_lstm_text_classification.ipynb — LSTM, GRU, BiLSTM; pack_padded_sequence, grad clipping
 
 05_cv/
