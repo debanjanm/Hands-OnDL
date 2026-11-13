@@ -26,6 +26,7 @@ Hands-on deep learning with PyTorch — structured for learning from scratch.
 
 05_cv/
   01_cnn_mnist.ipynb               — Conv2d, MaxPool2d, MNIST digit classification
+  02_cifar10_transfer_learning.ipynb — ResNet-18, feature extraction vs fine-tuning, differential LRs
 ```
 
 ## Prerequisites
