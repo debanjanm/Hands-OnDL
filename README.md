@@ -22,6 +22,7 @@ Hands-on deep learning with PyTorch — structured for learning from scratch.
 
 04_nlp/
   RNN-PyTorch.py                   — RNN text classifier on 20 Newsgroups
+  02_lstm_text_classification.ipynb — LSTM, GRU, BiLSTM; pack_padded_sequence, grad clipping
 
 05_cv/
   01_cnn_mnist.ipynb               — Conv2d, MaxPool2d, MNIST digit classification
