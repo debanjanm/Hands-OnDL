@@ -43,7 +43,7 @@ Hands-on deep learning with PyTorch — structured for learning from scratch.
 ## Prerequisites
 
 ```
-pip install torch torchvision scikit-learn pandas kagglehub matplotlib
+pip install -r requirements.txt
 ```
 
 ## Recommended order
