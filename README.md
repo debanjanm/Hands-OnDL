@@ -19,6 +19,7 @@ Hands-on deep learning with PyTorch — structured for learning from scratch.
 03_training_loop/
   01_manual_training_loop.ipynb    — 5-step loop, train/eval modes, checkpointing
   02_losses_and_optimizers.ipynb   — MSE/BCE/CE, SGD/Adam/AdamW, LR schedulers
+  03_regularization.ipynb          — overfitting, Dropout, weight decay, BatchNorm, early stopping
 
 ── Specializations ──────────────────────────────────────
 
