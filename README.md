@@ -15,6 +15,7 @@ Hands-on deep learning with PyTorch — structured for learning from scratch.
   PyTorch_Regression_California_Housing.ipynb   — tabular regression, MSE loss
   IMDB-TFIDF-FNN-PyTorch.py                     — sentiment classification, TF-IDF + FNN
   03_end_to_end_workflow.ipynb     — 6-step DL template: data → model → loss → train → eval → save
+  04_nn_module_internals.ipynb     — parameters vs buffers, ModuleList trap, state_dict, freezing, hooks, custom autograd
 
 03_training_loop/
   01_manual_training_loop.ipynb    — 5-step loop, train/eval modes, checkpointing
