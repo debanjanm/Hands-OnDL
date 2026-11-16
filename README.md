@@ -34,6 +34,10 @@ Hands-on deep learning with PyTorch — structured for learning from scratch.
   01_cnn_mnist.ipynb               — Conv2d, MaxPool2d, MNIST digit classification
   02_cifar10_transfer_learning.ipynb — ResNet-18, feature extraction vs fine-tuning, differential LRs
 
+08_generative/
+  01_autoencoder_vae.ipynb         — autoencoder, VAE, reparameterization, ELBO, sampling, interpolation
+  02_gan.ipynb                     — generator vs discriminator, adversarial loop, training diagnostics
+
 ── Production Skills ─────────────────────────────────────
 
 06_experiment_tracking/
@@ -52,4 +56,4 @@ pip install -r requirements.txt
 
 ## Recommended order
 
-`01_basics` → `02_neural_networks` → `03_training_loop` → specialization (`04_nlp` or `05_cv`) → `06_experiment_tracking` → `07_going_modular`
+`01_basics` → `02_neural_networks` → `03_training_loop` → specialization (`04_nlp` or `05_cv`) → `06_experiment_tracking` → `07_going_modular` → `08_generative`
