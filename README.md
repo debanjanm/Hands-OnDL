@@ -23,6 +23,7 @@ Hands-on deep learning with PyTorch — structured for learning from scratch.
   03_regularization.ipynb          — overfitting, Dropout, weight decay, BatchNorm, early stopping
   04_evaluation_metrics.ipynb      — confusion matrix, precision/recall/F1, ROC/PR, pos_weight, multi-class
   05_debugging_training.ipynb      — seeding, overfit-one-batch, init, gradient norms, NaN hunting, LR range test
+  06_speed_and_memory.ipynb        — profiling, DataLoader workers, AMP, grad accumulation, checkpointing, torch.compile
 
 ── Specializations ──────────────────────────────────────
 
